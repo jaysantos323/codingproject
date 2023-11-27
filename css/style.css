@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+header {
+  background-color: bisque;
+}
+nav {
+  background-color: bisque;
+}
+#home {
+  /* background-color: greenyellow; */
+  background-color: bisque;
+  /* background-image: url(hero.png); */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  /* height: 544px; */
+  /* width: auto; */
+}
+#about {
+  background-color: #fff;
+  padding-bottom: 130px;
+}
+#services {
+  background-color: bisque;
+  padding-bottom: 130px;
+}
+#contact {
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #222222;
+}
+.table-nav .td-nav {
+  border-collapse: collapse;
+  /* border: 2px solid black; */
+  /* border: 2px solid black; */
+  width: 12vw;
+  color: #222222;
+  text-align: center;
+  font-weight: 400;
+  font-family: pt-sans, sans-serif;
+  font-size: 14px;
+}
+.td-logo {
+  font-family: pt-sans, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  width: 20vw;
+  padding-left: 25px;
+  flex-grow: 2;
+}
+.j-color {
+  color: #ff9010;
+  font-style: italic;
+}
+.td-welcome {
+  /* background-color: aqua; */
+  color: #333;
+  font-size: 60px;
+  font-family: pt-sans, sans-serif;
+  line-height: 72px;
+  font-weight: 700;
+}
+
+.td-greet {
+  color: #666666;
+  font-family: pt-sans, sans-serif;
+  line-height: 27px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* td-hero-img { */
+.td-img {
+  background-color: goldenrod;
+  /* width: 100px;
+  height: auto; */
+}
+.hero-img {
+  width: 50vw;
+  height: auto;
+  /* transform: translateX(12vw); */
+  flex-grow: 1;
+  align-self: center;
+}
+.div-hero {
+  display: inline;
+}
+
+.btn {
+  margin-top: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  font-family: pt-sans, sans-serif;
+  font-weight: 700;
+  background-color: #ff9010;
+  border-radius: 2px;
+  border: none;
+  min-height: 50px;
+  min-width: 150px;
+}
+
+.div-welcome {
+  /* padding-top: 200px; */
+  /* padding-left: 50px; */
+  padding-left: 3.5rem;
+  flex-grow: 4;
+  width: 100%;
+}
+
+.about-me {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.intro-jay {
+  padding-top: 50px;
+  font-family: pt-sans, sans-serif;
+  text-align: center;
+  line-height: 29px;
+  font-size: 24px;
+}
+
+.intro-thanks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: pt-sans, sans-serif;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.p-offer {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.div-offer {
+  display: inline;
+  width: 300px;
+}
+.div-offer img {
+  /* margin: 5px; */
+  width: 200px;
+  height: auto;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.p-offer-details {
+  text-align: center;
+  font-family: pt-sans, sans-serif;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+  /* margin-bottom: 50px; */
+}
+
+footer {
+  text-align: center;
+  background-color: #222222;
+  color: #fff;
+  font-family: pt-sans, sans-serif;
+  line-height: 21px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-j {
+  color: #ff9010;
+}
+
+/* p {
+  text-transform: capitalize;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.td-menu {
+  display: flex;
+  color: #222222;
+  text-align: center;
+  font-weight: 400;
+  font-family: pt-sans, sans-serif;
+  font-size: 14px;
+  justify-content: space-evenly;
+  flex-grow: 8;
+}
+
+.td-nav :hover {
+  color: #ff9010;
+}
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
